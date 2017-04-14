@@ -8,4 +8,7 @@ BudgetApp es una aplicación que lleva un track de tus transacciones con el fin 
 - [ ] users can see the difference between budget and actual spending
 - [ ] users can change their budget allocation per category
 - [ ] users can register expenditures to a specific category
+- [ ] users balances will reset each month
+- [ ] users can see their spending history 
+- [ ] users can see predictions of their future spending behavior 
 
