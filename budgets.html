@@ -10,6 +10,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="CSS/index.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/color.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
 <body>
@@ -50,7 +53,7 @@
                     <button type="submit" class="btn btn-default">Submit</button>
                 </form>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="budgets.html">Budget</a></li>
+                    <li><a href="#">Budget</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -67,83 +70,39 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <div class="jumbotron" id="jumbo1">
-        <div id="main-card">
-            <div class="moneys">
-                <h2 style="color: #8bc34a; font-weight: 700">$15,000.00</h2>
-                <h2 class="no-margin">Money Left</h2>
-            </div>
-            <div class="moneys">
-                <h2 style="color: #ef5350; font-weight: 700">$25,000.00</h2>
-                <h2 class="no-margin">Money Spent</h2>
-            </div>
-        </div>
-    </div>
-    <div class="container" id="tablagastos">
-        <h2>Expense breakdown</h2>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Month</th>
-                    <th>Rent</th>
-                    <th>Services</th>
-                    <th>Groceries</th>
-                    <th>Transportation</th>
-                   
-                    <th>Credit</th>
-                    <th>Cel</th>
-                    <th>Pets</th>
-                    <th>Unforseables</th>
-                    <th>Savings</th>
-                    <th>Fun</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+	<div class="row">
+		<div class="col-lg-3 budgetcard deep-purple lighten-2">
+			Rent  <br><i class="material-icons md-36">home</i>
+		</div>
+		<div class="col-lg-3 budgetcard lime lighten-2">
+			Services <br><i class="material-icons md-36">lightbulb_outline</i>
+		</div>
+		<div class="col-lg-3 budgetcard orange darken-1">
+		Groceries  <br><i class="material-icons md-36">shopping_cart</i>
+		</div>
+		<div class="col-lg-3 budgetcard blue darken-2">
+		Transportation  <br><i class="material-icons md-36">drive_eta</i>
+		</div>
+		<div class="col-lg-3 budgetcard light-blue darken-2">
+			Credit  <br><i class="material-icons md-36">school</i>
+		</div>
+		<div class="col-lg-3 budgetcard green darken-1">
+			Cel  <br><i class="material-icons md-36">phone_android</i>
+		</div>
+		<div class="col-lg-3 budgetcard brown">
+			Pets  <br><i class="material-icons md-36">pets</i>
+		</div>
+		<div class="col-lg-3 budgetcard red lighten-1">
+			Unforseables  <br><i class="material-icons md-36">warning</i>
+		</div>
+		<div class="col-lg-3 budgetcard teal">
+			Savings  <br><i class="material-icons md-36">monetization_on</i>
+		</div>
+		<div class="col-lg-3 budgetcard amber lighten-1">
+			Fun  <br><i class="material-icons md-36">local_bar</i>
+		</div>
+	</div>
 </body>
 
 </html>
+
